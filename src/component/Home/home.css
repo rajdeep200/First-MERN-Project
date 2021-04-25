@@ -1,0 +1,24 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.home > .home__content >p{
+    font-family: cursive;
+    color: white;
+}
+
+.home > .home__content >h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.home > .home__content >h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}

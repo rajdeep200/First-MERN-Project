@@ -1,0 +1,81 @@
+.contact {
+  margin: 20px;
+}
+
+.upper__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container__field {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 270px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 7px black;
+}
+
+.details {
+  margin-left: 15px;
+}
+
+.form__container {
+  background-color: white;
+  margin: 60px 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px black;
+  border-radius: 10px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="name"] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px inset gray;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+  width: 300px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px inset gray;
+  border-radius: 5px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  background-color: royalblue;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px inset darkblue;
+  background-color: blue;
+}
